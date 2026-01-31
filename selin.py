@@ -13,7 +13,7 @@ if sys.platform == 'win32':
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # --- AYARLAR ---
-TOKEN = '8558975814:AAE8l1kVRGp5mFPAEebr_8fzD3SW1EjjaF0'
+TOKEN = '8317472766:AAHbRPEK6XX4vSDv0gAG05yMHIwZ-t_bMcY'
 ADMIN_ID = 7368199274  # Kendi Telegram ID'ni buraya yaz
 
 request_counter = 0
@@ -35,9 +35,9 @@ async def welcome_request(update: ChatJoinRequest):
     
     # Buton linklerini kendine göre güncelle
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="TÜRK İFŞA İZLE  🔥", url="https://t.me/+BiOfsdHHKGAzMGNk")],
-        [InlineKeyboardButton(text="ONLYFANS İFŞA  🔞", url="https://t.me/+JNpGJ10xTkVjM2E0")],
-        [InlineKeyboardButton(text="ENSEST İFŞA VİDEOLARI 💦", url="https://t.me/+HH2ALPSN9KUzNGVk")]
+        [InlineKeyboardButton(text="Tecavüz Videoları 🔥", url="https://t.me/+BiOfsdHHKGAzMGNk")],
+        [InlineKeyboardButton(text="Ünlü İfşaları 🔞", url="https://t.me/+PDRjcDXM0edjZmJk")],
+        [InlineKeyboardButton(text="Türbanlı içerikler💦", url="https://t.me/+HH2ALPSN9KUzNGVk")]
     ])
 
     try:
